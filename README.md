@@ -1,6 +1,6 @@
 # scoilerpla8
 
-I am tired of starting things from scratch for `python 3`.
+I am tired of starting things from scratch for `python 3`. So, I created this simple boilerplate code for repeated setting up of things. 
 
 ##### ***important***
 Is this a framework ? **NO**
