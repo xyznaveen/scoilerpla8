@@ -1,6 +1,6 @@
 # scoilerpla8
 
-I am tired of starting things from scratch for `python 3`. So, I created this simple boilerplate code for repeated setting up of things. 
+I am tired of starting things from scratch for `python 3`. So, I created this simple boilerplate code for repeated setting up of things. Feel free to use it if you have anything `selenium`y and `python`y.
 
 ##### ***important***
 Is this a framework ? **NO**
