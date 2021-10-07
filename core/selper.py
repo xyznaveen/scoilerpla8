@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from .app import App
+import re
 
 
 class Selper():
@@ -53,3 +54,15 @@ class Selper():
 
     def exec_javascript(self, code):
         self.__driver.execute_script(code)
+
+    def exec_jacascript_file(self, file):
+        with open(file, 'r') as f:
+            self.exec_javascript(f.read())
+
+    def get_console_log(self):
+        pass
+        # under development will be released later :D 
+        # for entry in self.__driver.get_log('browser'):
+        #     message = entry['message']
+        #     message = re.sub(r'console-api \d+:\d+\s', '', message)
+        #     print(message)

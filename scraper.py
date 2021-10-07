@@ -11,13 +11,10 @@ class Scraper():
         driver.get('https://google.com/')
 
         # this is how JS is executed
-        selper.exec_javascript("""
-        // you can execute JS this way
-        function test() {
-                console.log("tested");
-        }
-        test();
-        """)
+        # selper.exec_jacascript_file("your_javascript_file.js")
+        # selper.exec_jacascript("javascript code")
+
+        selper.get_console_log()
         
         print("this is before 5 seconds...")
         
