@@ -50,3 +50,6 @@ class Selper():
 
     def driver(self):
         return self.__driver
+
+    def exec_javascript(self, code):
+        self.__driver.execute_script(code)
